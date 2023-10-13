@@ -1,0 +1,189 @@
+@font-face {
+    font-family:chacha ;
+    src: url(samatha/Samatha.otf);
+}
+@font-face {
+    font-family: king;
+    src: url(kingdom-estella/Kingdom\ Estella\ Serif.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 241, 248);
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 10vh;
+    font-family: chacha;
+}
+#cnt h4{
+    font-size: 8vh;
+}
+#left,#rgh{
+    font-size: 3vh;
+}
+#page1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0vw 10vw;
+}
+#left-c{
+    width: 50%;
+}
+#right-c{
+    width:40%;;  
+}
+#left-c h1{
+    font-size: 15vh;
+    font-family: chacha;
+    color: rgb(62, 177, 144);
+}
+#left-c p{
+    font-size: 3vh;
+    font-family: king;
+    width: 30vw;
+}
+#left-c h5{
+    font-size: 2.5vh;
+    color: rgb(62, 177, 144);
+    line-height: 10vh;
+}
+#right-c img{
+    width: 90vh;
+}
+
+#page2{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(238, 241, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#collection h1{
+    font-size: 7vh;
+    font-family: chacha;
+    text-align: center;
+}
+#collection p{
+    font-size: 1vw;
+    font-family: king;
+    width: 60vw;
+    text-align: center;
+}
+#fillter{
+    display: flex;
+    padding: 0vw 10vw;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red;    */
+    font-size: 1.4vw;
+}
+#btn button{
+    font-size: 1.2vw;
+    padding: 0.5vw 1.5vw;
+    border: none;
+    border-radius: 20px;
+}
+button:hover{
+    background-color:rgb(62, 177, 144); ;
+}
+.card{
+    width: 20vw;
+    height: 40vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    text-align: center;
+    font-family: king;
+}
+.card img{
+   height: 20vh;
+   margin-top: 40px;
+
+}
+.card h3{
+    align-items: center;
+
+}
+#main1{
+    display: flex;
+    gap: 1vw;
+    margin-top: 10vh;
+}
+#main2{
+    display: flex;
+    gap: 1vw;
+    /* margin-top: 2vh; */
+}
+.card:hover{
+    background-color: gray;
+}
+#btnn{
+    font-size: 1.4vw;
+    padding: 1vw 1.5vw;
+    border-radius: 20px;
+    border: none;
+    margin: 6vh;
+}
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 241, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 10vh;
+}
+#lf img{
+    height: 45vh;
+}
+#rh1 h1{
+    font-size: 10vh;
+    color: rgb(49, 49, 49);
+    font-family: king;
+}
+#rh1 p{
+    font-size: 1vw;
+    width: 40vw;
+}
+.dot{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50px;
+    background-color: red;
+    display: flex;
+}
+#rh2{
+    display: flex;
+    gap: 1vh;
+    margin-top: 3vh;
+}
+#rh3 button{
+    font-size: 1.5vw;
+    padding: 1vw 1.5vw;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 20px;
+}
